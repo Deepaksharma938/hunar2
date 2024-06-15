@@ -1,0 +1,70 @@
+/* Reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+header {
+    background: #333;
+    color: #ff0d0d;
+    padding: 20px 0;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background: #090909;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    margin-bottom: 20px;
+}
+
+.courses {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.course {
+    margin-bottom: 30px;
+}
+
+.course img {
+    width: 100%;
+    max-width: 300px;
+}
+
+.btn {
+    display: inline-block;
+    background: #333;
+    color: #d907f1;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
